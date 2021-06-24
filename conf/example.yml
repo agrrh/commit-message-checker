@@ -1,0 +1,8 @@
+---
+
+patterns:
+  # Allow merge commits
+  - '^Merge pull request'
+  # Allow conventional commits, see discussion
+  - '^EXAMPLE-[0-9]{4,6}( )?'
+  - '^EXAMPLE-0( )?'  # For general tech stuff
